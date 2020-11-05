@@ -7,10 +7,9 @@
 
 ### Описание
 
-> Верстка интернет магазина
-[![Видео о проекте](http://joxi.ru/p27okgKToONaq2.jpg)](https://www.youtube.com/watch?v=_mxp5wiOFyE)
+Верстка интернет магазина
 
-Ссылка на готовый проект: http://zherebtsov.pro/projects/technomart/
+[![Видео о проекте](http://img.youtube.com/vi/_mxp5wiOFyE/0.jpg)](http://www.youtube.com/watch?v=_mxp5wiOFyE "")
 
 ---
 
