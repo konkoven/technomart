@@ -8,7 +8,7 @@
 
 <body>
   <header class="main-header">
-    <div class="up">
+    <div class="high-fill">
       <div class="container">
         <a class="logotype">ТЕХНОМАРТ</a>
         <form>
@@ -19,15 +19,12 @@
         <a class="order" href="">Оформить заказ</a>
       </div>
     </div>
-
     <div class="container">
-      <div class="description">
-        <p>
-          Интернет-магазин
-          строительных материалов
-          и инструментов для ремонта
-        </p>
-      </div>
+      <p class="description">
+        Интернет-магазин
+        строительных материалов
+        и инструментов для ремонта
+      </p>
       <div class="contacts">
         <a href="tel:+78142332211">+7(814)-233-22-11</a>
         <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
@@ -37,41 +34,41 @@
         <a class="cabinet" href="">Регистрация</a>
       </div>
     </div>
-    <div>
-      <nav class="menu">
-        <ul>
-          <li>
-            <a href="index.html">Главная</a>
-          </li>
-          <li>
-            <a href="#">Компания</a>
-          </li>
-          <li>
-            <a href="сatalog.html">Каталог</a>
-          </li>
-          <li>
-            <a href="#">Новости</a>
-          </li>
-          <li>
-            <a href="#">Спецпредложения</a>
-          </li>
-          <li>
-            <a href="#">Доставка</a>
-          </li>
-          <li>
-            <a href="#">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+    <nav class="navigation">
+      <ul>
+        <li>
+          <a href="index.html">Главная</a>
+        </li>
+        <li>
+          <a href="#">Компания</a>
+        </li>
+        <li>
+          <a href="сatalog.html">Каталог</a>
+        </li>
+        <li>
+          <a href="#">Новости</a>
+        </li>
+        <li>
+          <a href="#">Спецпредложения</a>
+        </li>
+        <li>
+          <a href="#">Доставка</a>
+        </li>
+        <li>
+          <a href="#">Контакты</a>
+        </li>
+      </ul>
+    </nav>
   </header>
   <main>
     <div class="offers-items">
       <h1 class="hidden">ТЕХНОМАРТ</h1>
       <section class="offers">
+        <h2 class="hidden">Предложения</h2>
         <ul class="highlights">
           <li class="materials">
             <div class="fill-yellow">
+              <a href="#">Материалы</a>
               <h3>Материалы</h3>
               <p class="appendix">На любой вкус</p>
               <div class="notice">new</div>
@@ -79,38 +76,54 @@
           </li>
           <li class="tool">
             <div class="fill-blue">
+              <a href="#">Инструмент</a>
               <h3>Инструмент</h3>
               <p class="appendix">На все случаи</p>
             </div>
           </li>
           <li class="technics">
             <div class="fill-purple">
+              <a href="#">Техника</a>
               <h3>Техника</h3>
               <p class="appendix">Для стройки</p>
             </div>
           </li>
           <li>
             <div class="slider-drill-box">
+              <p>Соседям на радость</p>
+              <a class="fill-red" href="catalog.html">Открыть каталог</a>
               <div class="slider-drill">
-                <h2>Дрели</h2>
-                <p>Соседям на радость</p>
-                <a class="fill-red" href="catalog.html">Открыть каталог</a>
+                <h3>Дрели</h3>
                 <img src="http://placehold.it/620x266" alt="дрели">
               </div>
-              <div class="navigate-left-right">
-                <p class="navigate-left">&lt;</p>
-                <p class="navigate-right">&gt;</p>
+              <div class="slider-navigate">
+                <button class="navigate-left">&lt;</button>
+                <button class="navigate-right">&gt;</button>
               </div>
+              <nav class="circle-navigate">
+                <ul>
+                  <li>
+                    <a href="#"></a>
+                    <img src="#" alt="">
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <img src="#" alt="">
+                  </li>
+                </ul>
+              </nav>
             </div>
           </li>
           <li class="discount">
             <div class="fill-green">
+              <a href="#">Скидки</a>
               <h3>Скидки 50%</h3>
               <p class="appendix">На 350 товаров</p>
             </div>
           </li>
           <li class="delivery">
             <div class="fill-yellow">
+              <a href="#">Доставка</a>
               <h3>Доставка</h3>
               <p class="appendix">Бесплатно</p>
             </div>
@@ -125,35 +138,31 @@
       </div>
       <div class="item-cards">
         <article>
-          <img src="http://placehold.it/200x126" alt="Перфоратор BOSCH
-          BFG 9000">
+          <img src="http://placehold.it/200x126" alt="Перфоратор BOSCH BFG 9000">
           <h3>Перфоратор BOSCH
             BFG 9000</h3>
-          <p><del>32500 Р.</del></p>
-          <p class="prize">25500 Р.</p>
+          <p><del class="original-prize">32500 Р.</del></p>
+          <span class="prize">25500 Р.</span>
         </article>
 
         <article>
-          <img src="http://placehold.it/200x126" alt="Перфоратор BOSCH
-            BFG 3000">
+          <img src="http://placehold.it/200x126" alt="Перфоратор BOSCH BFG 3000">
           <h3>Перфоратор BOSCH
             BFG 3000</h3>
-          <p><del>22500 Р.</del></p>
-          <p class="prize">15500 Р.</p>
+          <del class="original-prize">22500 Р.</del>
+          <span class="prize">15500 Р.</span>
         </article>
 
         <article>
-          <img src="http://placehold.it/200x126" alt="Перфоратор BOSCH
-          BFG 6000">
+          <img src="http://placehold.it/200x126" alt="Перфоратор BOSCH BFG 6000">
           <h3>Перфоратор BOSCH
             BFG 6000</h3>
-          <p><del>30500 Р.</del></p>
-          <p class="prize">25500 Р.</p>
+          <p><del class="original-prize">30500 Р.</del></p>
+          <span class="prize">25500 Р.</span>
         </article>
 
         <article>
-          <img src="http://placehold.it/200x126" alt="ерфоратор BOSCH
-          BFG 2000">
+          <img src="http://placehold.it/200x126" alt="Перфоратор BOSCH BFG 2000">
           <h3>Перфоратор BOSCH
             BFG 2000</h3>
           <p class="prize">12500 Р.</p>
@@ -176,36 +185,39 @@
         <li><a href="#">METABO</a></li>
       </ul>
     </section>
-    <section class="services-box">
-      <div class="services">
-        <h2>СЕРВИСЫ</h2>
-        <p>Хороший интернет-магазин отличается от плохого не только ценами!
-          Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-      </div>
-      <div class="slider-service-box">
-        <div class="slider-contents">
-          <button>Доставка</button>
-          <button>Гарантия</button>
-          <button>Кредит</button>
+    <section class="services-box_bg">
+      <div class="services-box-cotainer">
+        <div class="services">
+          <h2>СЕРВИСЫ</h2>
+          <p>Хороший интернет-магазин отличается от плохого не только ценами!
+            Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
         </div>
-        <div>
-          <p class="head">Доставка</p>
-          <p>Мы с удовольствием доставим ваш товар прямо
-            к вашему подъезду совершенно бесплатно!
-            Ведь мы неплохо заработаем,
-            поднимая его на ваш этаж!</p>
+        <div class="slider-service-box">
+          <div class="slider-contents">
+            <button>Доставка</button>
+            <button>Гарантия</button>
+            <button>Кредит</button>
+          </div>
+          <div>
+            <p class="head">Доставка</p>
+            <p>Мы с удовольствием доставим ваш товар прямо
+              к вашему подъезду совершенно бесплатно!
+              Ведь мы неплохо заработаем,
+              поднимая его на ваш этаж!</p>
+          </div>
+          <div></div>
         </div>
-        <div></div>
       </div>
     </section>
     <section class="about-box">
       <div class="company">
         <h2>КОМПАНИЯ «ТЕХНОМАРТ»</h2>
-        <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит
+        <p class="company-details">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
+          строительства не оставит
           равнодушными любителей сэкономить на гастарбайтерах.
-        <p>Мы можем доставить ваш товар в самые отдаленные точки России!
+        <p class="company-details">Мы можем доставить ваш товар в самые отдаленные точки России!
           Техномарт работает со многими транспортными компаниями:</p>
-        <ul>
+        <ul class="company-deliver">
           <li>Деловые линии</li>
           <li>Автотрейдинг</li>
           <li>ЖелДорЭкспедиция</li>
@@ -217,38 +229,36 @@
         <p>Вы можете забрать товар сами,
           заехав в наш офис</p>
         <img src="http://placehold.it/300x160" alt="Карта проезда">
-        <a href="#">Заблудились? Напишите нам!</a>
+        <button type="button">Заблудились? Напишите нам!</button>
       </div>
     </section>
   </main>
-  <footer class="down">
-    <div class="container">
-      <a class="logotype">ТЕХНОМАРТ</a>
-    </div>
-    <div class="navigation">
-      <nav>
-        <ul>
+  <footer class="main-footer">
+    <div class="footer-alighn-box">
+      <div class="container">
+        <a class="logotype">ТЕХНОМАРТ</a>
+        <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+        <a href="tel:+78125550555">+7 (812) 555-05-55</a>
+      </div>
+
+      <nav class="footer-navigation">
+        <ul class="main-navigate">
           <li><a href=" #">Компания</a></li>
           <li><a href="#">Новости</a></li>
           <li><a href="catalog.html">Каталог</a></li>
           <li><a href="#">Доставка</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
+        <ul class="item-navigate">
+          <li><a href="#">Материалы</a></li>
+          <li><a href="#">Техника</a></li>
+          <li><a href="#">Инструмент</a></li>
+          <li><a href="#">Спецпредложения</a></li>
+        </ul>
       </nav>
     </div>
-    <div class="contacts-down">
-      <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
-      <a href="tel:+78125550555">+7 (812) 555-05-55</a>
-    </div>
-    <div class="item-menu">
-      <ul>
-        <li><a href="#">Материалы</a></li>
-        <li><a href="#">Техника</a></li>
-        <li><a href="#">Инструмент</a></li>
-        <li><a href="#">Спецпредложения</a></li>
-      </ul>
-    </div>
     <div class="container">
+      <div class="down-fill">
       <div class="copyright">
         <p>© 2010–2019 Компания «Техномарт»
           Все права защищены</p>
@@ -269,6 +279,7 @@
           <a href="htmlacademy.ru">htmlacademy.ru</a>
         </p>
       </div>
+    </div>
     </div>
   </footer>
 </body>
