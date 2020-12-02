@@ -35,86 +35,68 @@
       </div>
     </div>
     <nav class="navigation">
-      <ul>
-        <li>
+      <ul class="navigation-menu">
+        <li class="point-main">
           <a href="index.html">Главная</a>
         </li>
-        <li>
+        <li class="point-company">
           <a href="#">Компания</a>
         </li>
-        <li>
-          <a href="сatalog.html">Каталог</a>
+        <li class="point-catalog">
+          <a href="catalog.html">Каталог</a>
         </li>
-        <li>
+        <li class="point-news">
           <a href="#">Новости</a>
         </li>
-        <li>
+        <li class="point-special">
           <a href="#">Спецпредложения</a>
         </li>
-        <li>
+        <li class="point-delivery">
           <a href="#">Доставка</a>
         </li>
-        <li>
+        <li class="point-contacts">
           <a href="#">Контакты</a>
         </li>
       </ul>
     </nav>
   </header>
   <main>
-    <div class="offers-items">
+    <div class="offers-container">
       <h1 class="hidden">ТЕХНОМАРТ</h1>
-      <section class="offers">
+      <section class="offers-items>
         <h2 class="hidden">Предложения</h2>
-        <ul class="colors-palette">
-          <li class="materials">
+        <ul class="offers-items">
+          <li class="offer-materials">
             <a href="#">Материалы</a>
             <h3>Материалы</h3>
-            <p class="appendix">На любой вкус</p>
+            <a class="link" href="">На любой вкус</a>
             <div class="notice">new</div>
           </li>
 
           <li class="tool">
             <a href="#">Инструмент</a>
             <h3>Инструмент</h3>
-            <p class="appendix">На все случаи</p>
+            <a class="link" href="">На все случаи жизни</a>
           </li>
 
           <li class="technics">
             <a href="#">Техника</a>
             <h3>Техника</h3>
-            <p class="appendix">Для стройки</p>
+            <a class="link" href="">Для стройки</a>
           </li>
 
           <li class="slider-drill-box">
-
-            <p>Соседям на радость</p>
-            <a class="fill-red" href="catalog.html">Открыть каталог</a>
-
-            <div class="slider-drill">
-              <h3>Дрели</h3>
-              <img src="http://placehold.it/620x266" alt="дрели">
-            </div>
-
-            <div class="slider-navigate">
-              <button class="navigate-left">&lt;</button>
-              <button class="navigate-right">&gt;</button>
-              <button class="circle-left"></button>
-              <button class="circle-left"></button>
-            </div>
+            <h3>Дрели</h3>
           </li>
           <li class="discount">
-            <div class="fill-green">
-              <a href="#">Скидки</a>
-              <h3>Скидки 50%</h3>
-              <p class="appendix">На 350 товаров</p>
-            </div>
+            <a href="#">Скидки</a>
+            <h3>Скидки 50%</h3>
+            <a class="link" href="">На 350 товаров</a>
           </li>
           <li class="delivery">
-            <div class="fill-yellow">
-              <a href="#">Доставка</a>
-              <h3>Доставка</h3>
-              <p class="appendix">Бесплатно</p>
-            </div>
+            <a href="#">Доставка</a>
+            <h3>Доставка</h3>
+            <a class="link" href="">Бесплатно</a>
           </li>
         </ul>
       </section>
@@ -122,14 +104,14 @@
     <section class="popular-products">
       <div class="popular">
         <h2>ПОПУЛЯРНЫЕ ТОВАРЫ</h2>
-        <a class="popular-btn" href="catalog.html">ВСЕ ПОПУЛЯРНЫЕ ТОВАРЫ</a>
+        <a class="long-red-btn" href="catalog.html">ВСЕ ПОПУЛЯРНЫЕ ТОВАРЫ</a>
       </div>
       <div class="item-cards">
         <article>
           <img src="http://placehold.it/200x126" alt="Перфоратор BOSCH BFG 9000">
           <h3>Перфоратор BOSCH
             BFG 9000</h3>
-          <p><del class="original-prize">32500 Р.</del></p>
+          <del> class="original-prize">32500 Р.</del>
           <span class="prize">25500 Р.</span>
           <div class="hover-card">
             <button type="button">КУПИТЬ</button>
@@ -161,7 +143,7 @@
           <img src="http://placehold.it/200x126" alt="Перфоратор BOSCH BFG 6000">
           <h3>Перфоратор BOSCH
             BFG 6000</h3>
-          <p><del class="original-prize">30500 Р.</del></p>
+          <del> class="original-prize">30500 Р.</del>
           <span class="prize">25500 Р.</span>
           <div class="hover-card">
             <button type="button">КУПИТЬ</button>
@@ -176,9 +158,9 @@
           <img src="http://placehold.it/200x126" alt="Перфоратор BOSCH BFG 2000">
           <h3>Перфоратор BOSCH
             BFG 2000</h3>
-          <p class="prize">12500 Р.</p>
+          <span> class="prize">12500 Р.</span>
           <div class="hover-card">
-            <div class="notice">new</div>
+            <span> class="notice">new</span>
             <button type="button">КУПИТЬ</button>
             <button type="button">В ЗАКЛАДКИ</button>
             <h3>Перфоратор BOSCH
@@ -191,7 +173,7 @@
     <section class="popular-brands">
       <div class="popular">
         <h2>ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ</h2>
-        <a class="popular-btn" href="catalog.html">ВСЕ ПРОИЗВОДИТЕЛИ</a>
+        <a class="long-red-btn" href="catalog.html">ВСЕ ПРОИЗВОДИТЕЛИ</a>
       </div>
       <ul class="brand-list">
         <li><a href="#">BOSCH</a></li>
@@ -241,7 +223,7 @@
           <li>Автотрейдинг</li>
           <li>ЖелДорЭкспедиция</li>
         </ul>
-        <a href="#">Подробнее о компании</a>
+        <a class="long-red-btn" href="#">Подробнее о компании</a>
       </div>
       <div class="contacts">
         <h2>КОНТАКТЫ</h2>
