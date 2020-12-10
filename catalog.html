@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -37,26 +37,26 @@
                     <a class="cabinet" href="">Личный кабинет</a>
                 </div>
                 <nav class="navigation">
-                    <ul>
-                        <li>
+                    <ul class="navigation-menu">
+                        <li class="point-main">
                             <a href="index.html">Главная</a>
                         </li>
-                        <li>
+                        <li class="point-company">
                             <a href="#">Компания</a>
                         </li>
-                        <li>
+                        <li class="point-catalog">
                             <a href="catalog.html">Каталог</a>
                         </li>
-                        <li>
+                        <li class="point-news">
                             <a href="#">Новости</a>
                         </li>
-                        <li>
+                        <li class="point-special">
                             <a href="#">Спецпредложения</a>
                         </li>
-                        <li>
+                        <li class="point-delivery">
                             <a href="#">Доставка</a>
                         </li>
-                        <li>
+                        <li class="point-contacts">
                             <a href="#">Контакты</a>
                         </li>
                     </ul>
@@ -64,12 +64,13 @@
             </div>
         </div>
     </header>
+
     <main>
         <div class="main-container">
-            <nav class="navigation-main">
+            <nav class="navigate-main-contain">
                 <ul>
                     <li>
-                        <a href="catalog.htm5">Каталог</a>
+                        <a href="catalog.html">Каталог</a>
                     </li>
                     <li>
                         <a href="">Инструмент</a>
@@ -82,19 +83,305 @@
             <div class="perforator-head">
                 <h2>Перфораторы</h2>
             </div>
-            <div class="filters">
-                <span class="filter-head">ФИЛЬТР:</span>
-                <div class="prize">
-                    <span class="prize-head">ЦЕНА:</span>
-                    <div class="prize-selection">
-                        <img src="" alt="">
+
+            <div class="filters-column">
+
+                <span class="filter-rubric">ФИЛЬТР:</span>
+                <span class="filter-head">ЦЕНА:</span>
+
+                <div class="prize-selection">
+                    <img src="#" alt="circle">
+                    <hr>
+                    <img src="#" alt="circle">
+                    <hr>
+                </div>
+
+                <div class="numeral-meaning">
+                    <span class="numeral">0</span>
+                    <span class="dash">&ndash;</span>
+                    <span class="numeral">30000</span>
+                </div>
+
+                <hr>
+
+                <span class="filter-head">ПРОИЗВОДИТЕЛИ:</span>
+                <ul class="brands">
+                    <li>
+                        <input type="checkbox" />
+                        BOSCH
+                    </li>
+                    <li>
+                        <input type="checkbox" />
+                        ИНТЕРСКОЛ
+                    </li>
+                    <li>
+                        <input type="checkbox" />
+                        MAKIta
+                    </li>
+                    <li>
+                        <input type="checkbox" />
+                        Dewalt
+                    <li>
+                    <li>
+                        <input type="checkbox" />
+                        Hitachi
+                    </li>
+                </ul>
+
+                <hr>
+
+                <span class="filter-head">ПИТАНИЕ:</span>
+                <ul class="radio-choice">
+                    <li>
+                        <input type="radio" id="radiobattery">
+                        Аккумуляторные
+                    </li>
+                    <li>
+                        <input type="radio" id="radionetwork">
+                        Сетевые
+                    </li>
+                </ul>
+                <a class="show" href="#">ПОКАЗАТЬ</a>
+            </div>
+
+            <div class="sorting">
+                <span class="filter-rubric">СОРТИРОВКА:</span>
+                <div class="filter-category">
+                    <a href="#">ПО ЦЕНЕ</a>
+                    <a href="#">ПО ТИПУ</a>
+                    <a href="#">ПО ФУНКЦИОНАЛУ</a>
+                </div>
+
+                <div class="triangle-switcher">
+                    <img src="#" alt="triangle">
+                    <img src="#" alt="triangle">
+                </div>
+
+            </div>
+
+            <div class="item-cards">
+
+                <article>
+                    <img src="http://placehold.it/200x126" alt="Перфоратор BOSCH
+                    BFG 3000">
+                    <h3>Перфоратор BOSCH
+                        BFG 3000</h3>
+                    <del class="original-prize">22500 Р.</del>
+                    <span class="prize">15500 Р.</span>
+
+                    <div class="hover-card">
+                        <button type="button">КУПИТЬ</button>
+                        <button type="button">В ЗАКЛАДКИ</button>
+                        <h3>Перфоратор BOSCH
+                            BFG 3000</h3>
+                        <span class="prize">15500 Р.</span>
+                    </div>
+                </article>
+
+
+                <article>
+                    <img src="http://placehold.it/200x126" alt="Перфоратор BOSCH
+                    BFG 6000">
+                    <h3>Перфоратор BOSCH
+                        BFG 6000</h3>
+                    <del class="original-prize">30500 Р.</del>
+                    <span class="prize">25500 Р.</span>
+
+                    <div class="hover-card">
+                        <button type="button">КУПИТЬ</button>
+                        <button type="button">В ЗАКЛАДКИ</button>
+                        <h3>Перфоратор BOSCH
+                            BFG 6000</h3>
+                        <span class="prize">25500 Р.</span>
+                    </div>
+                </article>
+
+                <article>
+                    <span class="notice">new</span>
+                    <button type="button">КУПИТЬ</button>
+                    <button type="button">В ЗАКЛАДКИ</button>
+                    <h3>Перфоратор BOSCH
+                        BFG 2000</h3>
+                    <span class="prize">12500 Р.</span>
+                </article>
+
+                <article>
+                    <img src="http://placehold.it/200x126" alt="Перфоратор BOSCH
+                    BFG 3000">
+                    <h3>Перфоратор BOSCH
+                        BFG 3000</h3>
+                    <del class="original-prize">22500 Р.</del>
+                    <span class="prize">15500 Р.</span>
+
+                    <div class="hover-card">
+                        <button type="button">КУПИТЬ</button>
+                        <button type="button">В ЗАКЛАДКИ</button>
+                        <h3>Перфоратор BOSCH
+                            BFG 3000</h3>
+                        <span class="prize">15500 Р.</span>
+                    </div>
+                </article>
+
+                <article>
+                    <span class="notice">new</span>
+                    <img src="http://placehold.it/200x126" alt="Перфоратор BOSCH
+                    BFG 6000">
+                    <h3>Перфоратор BOSCH
+                        BFG 6000</h3>
+                    <del class="original-prize">30500 Р.</del>
+                    <span class="prize">25500 Р.</span>
+
+                    <div class="hover-card">
+                        <button type="button">КУПИТЬ</button>
+                        <button type="button">В ЗАКЛАДКИ</button>
+                        <h3>Перфоратор BOSCH
+                            BFG 6000</h3>
+                        <span class="prize">25500 Р.</span>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="http://placehold.it/200x126" alt="Перфоратор BOSCH
+                    BFG 2000">
+                    <h3>Перфоратор BOSCH
+                        BFG 2000</h3>
+                    <span class="prize">12500 Р.</span>
+
+                    <div class="hover-card">
+                        <button type="button">КУПИТЬ</button>
+                        <button type="button">В ЗАКЛАДКИ</button>
+                        <h3>Перфоратор BOSCH
+                            BFG 2000</h3>
+                        <span class="prize">12500 Р.</span>
+                    </div>
+                </article>
+
+                <article>
+                    <span class="notice">new</span>
+                    <img src="http://placehold.it/200x126" alt="Перфоратор BOSCH
+                    BFG 3000">
+                    <h3>Перфоратор BOSCH
+                        BFG 3000</h3>
+                    <del class="original-prize">22500 Р.</del>
+                    <span class="prize">15500 Р.</span>
+
+                    <div class="hover-card">
+                        <button type="button">КУПИТЬ</button>
+                        <button type="button">В ЗАКЛАДКИ</button>
+                        <h3>Перфоратор BOSCH
+                            BFG 3000</h3>
+                        <span class="prize">15500 Р.</span>
+                    </div>
+                </article>
+
+                <article>
+                    <span class="notice">new</span>
+                    <img src="http://placehold.it/200x126" alt="Перфоратор BOSCH
+                    BFG 6000">
+                    <h3>Перфоратор BOSCH
+                        BFG 6000</h3>
+                    <del class="original-prize">30500 Р.</del>
+                    <span class="prize">25500 Р.</span>
+
+                    <div class="hover-card">
+                        <button type="button">КУПИТЬ</button>
+                        <button type="button">В ЗАКЛАДКИ</button>
+                        <h3>Перфоратор BOSCH
+                            BFG 6000</h3>
+                        <span class="prize">25500 Р.</span>
+                    </div>
+                </article>
+
+                <article>
+                    <img src="http://placehold.it/200x126" alt="Перфоратор BOSCH
+                    BFG 2000">
+                    <h3>Перфоратор BOSCH
+                        BFG 2000</h3>
+                    <span class="prize">12500 Р.</span>
+
+                    <div class="hover-card">
+                        <button type="button">КУПИТЬ</button>
+                        <button type="button">В ЗАКЛАДКИ</button>
+                        <h3>Перфоратор BOSCH
+                            BFG 2000</h3>
+                        <span class="prize">12500 Р.</span>
+                    </div>
+                </article>
+
+                <div class="pages">
+                    <button type="button">1</button>
+                    <button type="button">2</button>
+                    <button type="button">3</button>
+                    <button type="button">следующая</button>
+                </div>
+                <div class="explainer-bg">
+                    <div class="explainer-box">
+                        <h2 class="explainer-head">ПАРА СЛОВ О ПЕРФОРАТОРАХ</h2>
+                        <p>
+                            Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления
+                            отверстий в кирпиче, бетоне и камне.
+                        </p>
+                        <p>
+                            Существуют электромеханические и пневматические перфораторы. Современные модели могут
+                            выполнять функции дрели, шуруповерта и отбойного молотка.
+                        </p>
+                        <p>
+                            В ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены
+                            отбойный молоток и ударная дрель.
+                        </p>
                     </div>
                 </div>
-               
             </div>
         </div>
     </main>
-    <footer></footer>
+
+    <footer class="main-footer">
+        <div class="footer-alighn-box">
+            <div class="container">
+                <a class="logotype">ТЕХНОМАРТ</a>
+                <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+                <a href="tel:+78125550555">+7 (812) 555-05-55</a>
+            </div>
+
+            <nav class="footer-navigation">
+                <ul class="main-navigate">
+                    <li><a href=" #">Компания</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="#">Доставка</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                <ul class="item-navigate">
+                    <li><a href="#">Материалы</a></li>
+                    <li><a href="#">Техника</a></li>
+                    <li><a href="#">Инструмент</a></li>
+                    <li><a href="#">Спецпредложения</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <p>© 2010–2019 Компания «Техномарт»
+                    Все права защищены</p>
+            </div>
+            <div class="social">
+                <ul>
+                    <li><a href="#">Вконтакте</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+            <div>
+                <p>Обратная связь:
+                    <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+                </p>
+                <p>
+                    Разработано &mdash;
+                    <a href="htmlacademy.ru">htmlacademy.ru</a>
+                </p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
