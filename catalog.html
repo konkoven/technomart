@@ -4,55 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Каталог товаров. HTML Academy: Техномарт</title>
+    <title>
+        Каталог товаров. HTML Academy: Техномарт
+    </title>
 </head>
 
 <body>
-    <header>
-        <div class="header-main">
+    <header class="main-header">
+        <div class="upper-header">
+          <div class="container">
+            <a class="logotype">
+              ТЕХНОМАРТ
+            </a>
+            <form>
+              <input type="text" placeholder="Поиск">
+            </form>
+            <a class="bookmarks" href="">
+              Закладки
+            </a>
+            <a class="bascket" href="">
+              Корзина
+            </a>
+            <a class="order" href="">
+              Оформить заказ
+            </a>
+          </div>
+        </div>
+        <div class="container">
+          <p class="description">
+            Интернет-магазин строительных материалов и инструментов для ремонта
+          </p>
+          <div class="contacts">
+            <a href="tel:+78142332211">
+              +7(814)-233-22-11
+            </a>
+            <address>
+              г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+            </address>
+          </div>
 
-            <div class="header-container">
-
-                <a class="logotype">
-                    техномарт
-                </a>
-                <form>
-                    <input type="text" placeholder="Поиск:">
-                </form>
-                <a class="bookmarks" href="">
-                    Закладки
-                </a>
-                <a class="bascket" href="">
-                    Корзина
-                </a>
-                <a class="Order" href="">
-                    Оформить заказ
-                </a>
-
-                <div>
-                    <p class="description">
-                        Интернет-магазин строительных материалов и инструментов для ремонта
-                    </p>
-                </div>
-                <div class="contacts">
-                    <a href="tel:+78125550555">
-                        +7 (812) 555-05-55
-                    </a>
-                    <address>
-                        г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-                    </address>
-                </div>
                 <div class="person-corner">
                     <a class="person" href="">
                         Равшан Джамшутович
                     </a>
-                    <a class="my_orders" href="">
+                </div>
+                <div class="person-corner-links"></div>
+                    <a class="my-orders" href="">
                         Мои заказы
                     </a>
                     <a class="cabinet" href="">
                         Личный кабинет
                     </a>
                 </div>
+                </div>
+                
                 <nav class="navigation">
                     <ul class="navigation-menu">
                         <li class="point-main">
@@ -203,7 +208,9 @@
         </div>
 
         <div class="sorting">
-            <span class="filter-rubric">сортировка:</span>
+            <span class="filter-rubric">
+                сортировка:
+            </span>
             <ul class="filter-category">
                 <li>
                     <a href="#">
@@ -233,7 +240,6 @@
 
         <div class="item-cards">
 
-
             <article>
                 <img src="http://placehold.it/200x126" alt="Перфоратор bosch bfg 3000">
                 <h3>Перфоратор bosch bfg 3000</h3>
@@ -241,13 +247,20 @@
                 <span class="prize">15500 Р.</span>
 
                 <div class="hover-card">
-                    <button type="button">купить</button>
-                    <button type="button">в закладки</button>
-                    <h3>Перфоратор bosch bfg 3000</h3>
-                    <span class="prize">15500 Р.</span>
+                    <button type="button">
+                        купить
+                    </button>
+                    <button type="button">
+                        в закладки
+                    </button>
+                    <h3>
+                        Перфоратор bosch bfg 3000
+                    </h3>
+                    <span class="prize">
+                        15500 Р.
+                    </span>
                 </div>
             </article>
-
 
             <article>
                 <img src="http://placehold.it/200x126" alt="Перфоратор bosch bfg 6000">
@@ -277,7 +290,6 @@
                 </div>
             </article>
 
-
             <article>
                 <span class="notice">
                     new
@@ -295,7 +307,6 @@
                     12500 Р.
                 </span>
             </article>
-
 
             <article>
                 <img src="http://placehold.it/200x126" alt="Перфоратор bosch bfg 3000">
@@ -324,7 +335,6 @@
                     </span>
                 </div>
             </article>
-
 
             <article>
                 <span class="notice">
@@ -357,7 +367,6 @@
                 </div>
             </article>
 
-
             <article>
                 <img src="http://placehold.it/200x126" alt="Перфоратор bosch bfg 2000">
                 <h3>
@@ -369,12 +378,14 @@
 
                 <div class="hover-card">
                     <button type="button">
-                        купить
+                        Купить
                     </button>
                     <button type="button">
-                        в закладки
+                        В закладки
                     </button>
-                    <h3>Перфоратор bosch bfg 2000</h3>
+                    <h3>
+                        Перфоратор bosch bfg 2000
+                    </h3>
                     <span class="prize">
                         12500 Р.
                     </span>
@@ -385,7 +396,9 @@
             <article>
                 <span class="notice">new</span>
                 <img src="http://placehold.it/200x126" alt="Перфоратор bosch bfg 3000">
-                <h3>Перфоратор bosch bfg 3000</h3>
+                <h3>
+                    Перфоратор bosch bfg 3000
+                </h3>
                 <del class="original-prize">
                     22500 Р.
                 </del>
@@ -473,20 +486,17 @@
                     </a>
                 </li>
 
-
                 <li>
                     <a href="#">
                         2
                     </a>
                 </li>
 
-
                 <li>
                     <a href="#">
                         3
                     </a>
                 </li>
-
 
                 <li>
                     <a href="#">
@@ -500,11 +510,8 @@
                         Пара слов о перфораторах
                     </h2>
                     <p>
-                        Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления
-                        отверстий в кирпиче, бетоне и камне.
-                        Существуют&nbsp; электромеханические и пневматические перфораторы. Современные модели могут
-                        выполнять функции дрели, шуруповерта и отбойного молотка.
-                        В&nbsp; ассортиментном ряду есть выбор отбойный молоток и ударная дрель.
+                        Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. Существуют&nbsp; электромеханические и пневматические перфораторы. Современные модели могут
+                        выполнять функции дрели, шуруповерта и отбойного молотка. В&nbsp; ассортиментном ряду есть выбор отбойный молоток и ударная дрель.
                     </p>
                 </div>
             </div>
@@ -515,9 +522,15 @@
     <footer class="main-footer">
         <div class="footer-alighn-box">
             <div class="container">
-                <a class="logotype">ТЕХНОМАРТ</a>
-                <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
-                <a href="tel:+78125550555">+7 (812) 555-05-55</a>
+                <a class="logotype">
+                    ТЕХНОМАРТ
+                </a>
+                <address>
+                    г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+                </address>
+                <a href="tel:+78125550555">
+                    +7 (812) 555-05-55
+                </a>
             </div>
 
             <nav class="footer-navigation">
@@ -528,13 +541,11 @@
                         </a>
                     </li>
 
-
                     <li>
                         <a href="#">
                             Новости
                         </a>
                     </li>
-
 
                     <li>
                         <a href="catalog.html">
@@ -542,13 +553,11 @@
                         </a>
                     </li>
 
-
                     <li>
                         <a href="#">
                             Доставка
                         </a>
                     </li>
-
 
                     <li>
                         <a href="#">
@@ -564,20 +573,17 @@
                         </a>
                     </li>
 
-
                     <li>
                         <a href="#">
                             Техника
                         </a>
                     </li>
 
-
                     <li>
                         <a href="#">
                             Инструмент
                         </a>
                     </li>
-
 
                     <li>
                         <a href="#">
@@ -589,16 +595,17 @@
         </div>
         <div class="container">
             <div class="copyright">
-                <p>© 2010–2019 Компания «Техномарт» Все&nbsp; права защищены</p>
+                <p>
+                    © 2010–2019 Компания «Техномарт» Все&nbsp; права защищены
+                </p>
             </div>
-            <div class="social">
-                <ul>
+            
+                <ul class="social">
                     <li>
                         <a href="#">
                             Вконтакте
                         </a>
                     </li>
-
 
                     <li>
                         <a href="#">
@@ -606,16 +613,16 @@
                         </a>
                     </li>
 
-
                     <li>
                         <a href="#">
                             Instagram
                         </a>
                     </li>
                 </ul>
-            </div>
+            
             <div>
-                <p>Обратная связь:
+                <p>
+                    Обратная связь:
                     <a href="mailto:mail@htmlacademy.ru">
                         mail@htmlacademy.ru
                     </a>
