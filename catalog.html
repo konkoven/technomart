@@ -4,16 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-        Каталог товаров. HTML Academy: Техномарт
-    </title>
+    <title>Каталог товаров. HTML Academy: Техномарт</title>
+    
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header class="main-header">
         <div class="upper-header">
             <div class="container">
-                <a class="logotype">Техномарт</a>
+                <a class="logotype" href="index.html">
+                    <img src="./img/logos/logo_t-mart.png" alt="Техномарт">
+                    </a>
                 <form><input type="text" placeholder="Поиск:"></form>
                 <div class="bookmarks-bascket-order">
                     <a class="bookmarks" href="#"> Закладки: 0</a>
@@ -37,7 +41,7 @@
                         <span>Равшан Джамшутович</span>
                         <img src="./img/icons/icon-logout.svg" alt="выйти">
                     </a>
-                    <div>
+                    <div class="data">
                         <a class="my-orders" href="">Мои заказы</a>
                         <a class="cabinet" href="">Личный кабинет</a>
                     </div>
@@ -58,14 +62,16 @@
     </header>
     <main>
         <div class="container">
+            <div class="navigate-item">
             <span><img src="./img/icons/icon-home.svg" alt="Вернуться на главную"></span>
             <nav class="navigate-main-contain">
                 <ul>
                     <li><a href="catalog.html">Каталог</a></li>
-                    <li><a href="">Инструмент</a></li>
-                    <li><a href="">Перфораторы</a></li>
+                    <li><a href="#">Инструмент</a></li>
+                    <li><a href="#">Перфораторы</a></li>
                 </ul>
             </nav>
+            </div>
             <h1 class="perforator-head">Перфораторы</h1>
             <div class="items-wrapper">
                 <section class="filters-column">
@@ -77,7 +83,7 @@
                         </fieldset>
                         <fieldset>
                             <legend class="filter-head">производители:</legend>
-                            <ul class="brands">
+                            <ul class="brands"> 
                                 <li>
                                     <input type="checkbox" name="bosch" id="filter-bosch">
                                     <label for="filter-bosch">bosch</label>
@@ -117,18 +123,20 @@
                     </form>
                 </section>
                 <section class="sorting">
-                    <h2 class="filter-rubric">Сортировка:</h2>
-                    <ul class="filter-category">
-                        <li><a href="#">По цене</a></li>
-                        <li><a href="#">По типу</a></li>
-                        <li><a href="#">По функционалу</a></li>
-                    </ul>
-                    <ul class="triangle-switcher">
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                    </ul>
-                    <div class="item-cards">
-                        <article>
+                    <div class="sorting-type">
+                        <h2 class="filter-rubric">Сортировка:</h2>
+                        <ul class="filter-category">
+                            <li><a href="#">По цене</a></li>
+                            <li><a href="#">По типу</a></li>
+                            <li><a href="#">По функционалу</a></li>
+                        </ul>
+                        <ul class="triangle-switcher">
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+                    </div>
+                    <div class="item-cards item-cards-catalog">
+                        <article class="card card-catalog">
                             <img src="./img/catalog/Perforator_1.jpg" alt="Перфоратор bosch bfg 3000">
                             <h3>Перфоратор bosch bfg 3000</h3>
                             <del class="original-prize"> 22500 Р.</del>
@@ -139,7 +147,7 @@
                                 <button type="button">В закладки</button>
                             </div>
                         </article>
-                        <article>
+                        <article class="card card-catalog">
                             <img src="./img/catalog/Perforator_2.jpg" alt="Перфоратор bosch bfg 6000">
                             <h3>Перфоратор bosch bfg 6000</h3>
                             <del class="original-prize">30500 Р.</del>
@@ -149,12 +157,12 @@
                                 <button type="button">В закладки</button>
                             </div>
                         </article>
-                        <article>
+                        <article class="card card-catalog">
                             <img src="./img/catalog/Perforator_1.jpg" alt="Перфоратор bosch bfg 2000">
                             <h3>Перфоратор bosch bfg 2000</h3>
                             <span class="prize">12500 Р.</span>
                         </article>
-                        <article>
+                        <article class="card card-catalog">
                             <img src="./img/catalog/Perforator_2.jpg" alt="Перфоратор bosch bfg 3000">
                             <h3>Перфоратор bosch bfg 3000</h3>
                             <del class="original-prize">22500 Р.</del>
@@ -164,7 +172,7 @@
                                 <button type="button">В закладки</button>
                             </div>
                         </article>
-                        <article>
+                        <article class="card card-catalog">
                             <span class="notice">new</span>
                             <img src="./img/catalog/Perforator_3.jpg" alt="Перфоратор bosch bfg 6000">
                             <h3>Перфоратор bosch bfg 6000</h3>
@@ -175,7 +183,7 @@
                                 <button type="button">В закладки</button>
                             </div>
                         </article>
-                        <article>
+                        <article class="card card-catalog">
                             <img src="./img/catalog/Perforator_1.jpg" alt="Перфоратор bosch bfg 2000">
                             <h3>Перфоратор bosch bfg 2000</h3>
                             <span class="prize">12500 Р.</span>
@@ -184,7 +192,7 @@
                                 <button type="button">В закладки</button>
                             </div>
                         </article>
-                        <article>
+                        <article class="card card-catalog">
                             <span class="notice">new</span>
                             <img src="./img/catalog/Perforator_1.jpg" alt="Перфоратор bosch bfg 3000">
                             <h3>Перфоратор bosch bfg 3000</h3>
@@ -195,7 +203,7 @@
                                 <button type="button">В закладки</button>
                             </div>
                         </article>
-                        <article>
+                        <article class="card card-catalog">
                             <span class="notice">new</span>
                             <img src="./img/catalog/Perforator_2.jpg" alt="Перфоратор bosch bfg 6000">
                             <h3>Перфоратор bosch bfg 6000</h3>
@@ -206,7 +214,7 @@
                                 <button type="button">В закладки</button>
                             </div>
                         </article>
-                        <article>
+                        <article class="card card-catalog">
                             <img src="./img/catalog/Perforator_3.jpg" alt="Перфоратор bosch bfg 2000">
                             <h3>Перфоратор bosch bfg 2000</h3>
                             <span class="prize">12500 Р.</span>
@@ -224,7 +232,9 @@
                     </ul>
                 </section>
             </div>
-            <div class="explainer-bg">
+        </div>
+        <div class="explainer-bg">
+            <div class="container">
                 <div class="explainer-box">
                     <h2 class="explainer-head">
                         Пара слов о перфораторах
@@ -270,7 +280,7 @@
                     <li><a href="#">Facebook</a></li>
                     <li><a href="#">Instagram</a></li>
                 </ul>
-                <div>
+                <div class="feedback-research">
                     <p>
                         Обратная связь:
                         <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
@@ -280,7 +290,7 @@
                         <a href="https://htmlacademy.ru/">htmlacademy.ru</a>
                     </p>
                 </div>
-            </div>
+            </div>s
         </div>
     </footer>
 </body>
