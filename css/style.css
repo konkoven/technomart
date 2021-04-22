@@ -1,0 +1,448 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Cuprum', sans-serif;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.main-header {
+    outline: 6px solid orange;
+    background-color: #f3f7f9;
+}
+.upper-header {
+    outline: 6px solid purple;
+    display: flex;
+    background-color: #293449;
+    height: 40px;
+    align-items: center;
+}
+.upper-header a {
+    color: white;
+}
+.container {
+    outline: 4px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    width: 940px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .person-wrapper {
+    outline: 4px solid blue; 
+    display: flex;
+    width: 940px;
+    padding: 0;
+    margin-top: 30px;
+    flex-direction: row;
+    align-items: stretch;
+}
+.description {
+    outline: 4px solid olive;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: auto;  
+}
+.contacts {
+    outline: purple 4px solid;
+    margin-right: auto;
+    margin-left: auto;
+}
+.person-corner {
+    outline: 4px solid yellowgreen;
+    min-width: 300px;
+}
+.person-corner a {
+    text-decoration: underline;
+}
+.person-corner span {
+    font-size: 21px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.person-corner .data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.my-orders {
+    margin-right: 10px;
+}
+.navigation-menu {
+    border: 4px solid green;
+    display: flex;
+    justify-content: space-around;
+}
+.navigation-menu a {
+    color: white;
+}
+.navigate-main-contain ul {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin-right: 20px;
+}
+.navigate-main-contain a {
+    margin-right: 30px;
+}
+.secret-head {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+.offers-container {  
+    width: 940px;
+    list-style: none;
+    margin: 50px auto;
+    padding: 0;
+}
+.offers-items {
+    padding: 0;
+    margin: 0;
+}
+.box {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    min-height: 123px;
+    box-sizing: border-box;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    outline: 4px solid gray;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.technics {
+    margin-right: 0;
+}
+.slider-drill-box {
+    width: 620px;
+    height: 266px;
+    margin-bottom: 0;
+}
+.discount {
+    margin-right: 0;
+}
+.deliver {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.popular-products {
+    /* background: lightgrey; */
+    width: 940px;
+    margin: 0 auto;
+}
+.popular {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: #f9f5f0;
+    justify-content: space-between;
+}
+.popular-head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 25px;
+    font-size: 30px;
+    color: #32425c;
+    text-transform: uppercase;
+}
+.long-red-btn {
+    font-size: 14px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 25px;
+    background-color: #ee3643;
+    width: 250px;
+    height: 40px; 
+}
+.item-cards {
+    display: flex;
+    justify-content: space-between;
+}
+.item-cards-catalog {
+    justify-content: flex-start;
+}
+.card {
+    border: 1px solid #eaeaea;
+    width: 220px;
+    min-height: 320px;
+    box-sizing: border-box;
+}
+.card-catalog {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.card-catalog:nth-child(3n) {
+    margin-right: 0;
+}
+.card-catalog:nth-child(-n+3) {
+    margin-top: 0;
+}
+.hover-card {
+    visibility: hidden;
+}
+.popular-brands {
+    padding: 0;
+    width: 940px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.brand-list {
+    margin-top: 20px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+.brand-list li {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 220px;
+    height: 145px;
+    outline: 1px solid #eaeaea;
+    box-sizing: border-box;
+}
+.brand-list li:nth-child(4n) {
+    margin-right: 0;
+}
+.services-box_bg {
+    background-color: #f4f8f9;   
+}
+.services-box-cotainer {
+    width: 940px;
+    margin: 0 auto;
+}
+.about-box {
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+}
+.main-footer {
+    margin-top: 90px;
+    background-color: #32425c;
+}
+.logotype-address {
+    border: lightpink 2px solid;
+}
+.logotype-address .logotype {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: white;
+    background-color: #ee3643;
+    width: 220px;
+    height: 64px;
+    border-bottom: 4px solid #b52933;
+}
+.footer-navigation {
+    font-size: 18px;
+    border: 2px solid lightgreen;
+}
+.main-navigate {
+    display: flex;
+    justify-content: space-between;
+}
+.main-navigate a {
+    display: flex;
+    color: white;
+}
+.item-navigate {
+    display: flex;
+    justify-content: space-between;
+}
+.copyright-global-box {
+    display: flex;
+    background-color: #293449;
+}
+.footer-copyright {
+    border: 2px solid orange;
+}
+.container p {
+    font-size: 16px;
+}
+.social {
+    border: 2px solid lightpink;
+}
+.social a {
+    color: white;
+}
+.feedback-research {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.feedback {
+    font-size: 16px;
+}
+.feedback a {
+    color: #ffd180;
+}
+.research {
+    font-size: 16px;
+    margin-left: 20px;
+}
+.research a {
+    color: #ffd180;
+}
+.navigation {
+    width: 100%;
+    outline: 4px solid magenta;
+    background-color: #32425c;
+}
+.navigation-menu {
+    display: flex;
+    justify-content: space-around;
+}
+.navigation-menu a {
+    color: white;
+}
+.navigate-item {
+    display: flex;
+    outline: 4px solid black;
+    width: 100%;
+}
+.navigate-main-contain ul {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.perforator-head {
+    display: block;
+    width: 100%;
+    outline: 4px solid dodgerblue;
+}
+.items-wrapper {
+    display: flex;
+    padding: 0;   
+}
+.filters {
+    outline: 4px solid deepskyblue;
+    margin-right: 20px;
+    width: 220px;
+}
+.sorting {
+    outline: 4px solid blue;
+    /* width: 700px;    */
+    padding: 0;
+}
+.sorting-type {
+    display: flex;
+    outline: 4px solid fuchsia;
+    padding: 0;
+}
+.filter-rubric {
+    display: inline-block;
+    height: 40px;
+    width: 120px;
+}
+.filter-category {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+.hide {
+    /* visibility: hidden; */
+    display: none;
+}
+.item-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+.pages {
+    outline: 4px solid fuchsia;
+    display: flex;
+    width: 285px;
+    padding: 0;
+}
+.pages li {
+    margin-right: 20px;
+}
+.explainer-bg {
+    margin-top: 50px;
+    background-color: #f2f6f8;
+    height: 260px;
+}
+.main-footer {
+    background-color: #32425c;
+    outline: 4px solid maroon;
+    padding: 0;
+}
+.logotype-address {
+    outline: 4px solid hotpink;
+    height: 200px;
+}
+.copyright-global-box {
+    background-color: #293449;
+    outline: 4px solid magenta;
+    padding: 0;
+}
+.footer-navigation {
+    outline: 4px solid green;
+    width: 600px;
+    height: 200px;
+}
+.main-navigate {
+    display: flex;
+    justify-content: space-between;
+}
+.item-navigate {
+    display: flex;
+    justify-content: space-between;
+}
+.main-navigate > li > a {
+    color: white;
+}
+.item-navigate li > a {
+    color: #f5ca7e;
+}
+.copyright-global-box > .container > p {
+    color: white;
+    outline: 4px solid  red;
+    display: flex;
+    align-items: center;
+    height: 100px;
+} 
+.social {
+    height: 100px;
+    outline: 4px solid  burlywood;
+}
+.social > li > a {
+    color: white;
+}
+.feedback-research {
+    color: white;
+    outline: 4px solid green;
+}
+.feedback-research > p > a {
+    color: #ffd180 ;
+    display: block;
+}
