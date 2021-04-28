@@ -5,18 +5,20 @@
   <meta charset="utf-8">
   <title>Главная страница. HTML Academy: Техномарт</title>
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header class="main-header">
     <div class="upper-header">
       <div class="container">
-        <a class="logotype">Техномарт</a>
+        <a class="logotype" href="#">Техномарт</a>
         <form>
           <input type="text" placeholder="Поиск">
         </form>
-        <a class="bookmarks" href="">Закладки</a>
-        <a class="bascket" href="">Корзина</a>
+        <a class="bookmarks" href="">Закладки: 0</a>
+        <a class="bascket" href="">Корзина: 0</a>
         <a class="order" href="">Оформить заказ</a>
       </div>
     </div>
@@ -28,7 +30,7 @@
         <div class="contacts">
           <a href="tel:+78142332211">
             +7(814)-233-22-11
-          </a>
+          </a>  
           <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
         </div>
         <div class="person-corner">
@@ -54,28 +56,28 @@
       <h1 class="secret-head">Техномарт</h1>
       <section class="offers-items">
         <h2 class="secret-head">Предложения</h2>
-        <ul class="offers-items">
-          <li class="offer-materials">
+        <ul class="offers-items clearfix">
+          <li class="box offer-materials">
             <h3>Материалы</h3>
             <a class="link" href="">На любой вкус</a>
             <span class="notice">new</span>
           </li>
-          <li class="tool">
+          <li class="box tool">
             <h3>Инструмент</h3>
             <a class="link" href="">На все случаи жизни</a>
           </li>
-          <li class="technics">
+          <li class="box technics">
             <h3>Техника</h3>
             <a class="link" href="">Для стройки</a>
           </li>
-          <li class="slider-drill-box">
+          <li class="box slider-drill-box">
             <h3>Дрели</h3>
           </li>
-          <li class="discount">
+          <li class="box discount">
             <h3>Скидки 50%</h3>
             <a class="link" href="">На 350 товаров</a>
           </li>
-          <li>
+          <li class="box deliver">
             <h3>Доставка</h3>
             <a class="link" href="">Бесплатно</a>
           </li>
@@ -88,7 +90,7 @@
         <a class="long-red-btn" href="catalog.html">Все популярные товары</a>
       </div>
       <div class="item-cards">
-        <article>
+        <article class="card">
           <img src="./img/Perforator_1.jpg" alt="Перфоратор bosch bfg 9000">
           <h3>Перфоратор bosch bfg 9000</h3>
           <del class="original-prize">32500 Р.</del>
@@ -100,7 +102,7 @@
             <span class="prize">25500 Р.</span>
           </div>
         </article>
-        <article>
+        <article class="card">
           <img src="./img/Perforator_2.jpg" alt="Перфоратор bosch bfg 3000">
           <h3>Перфоратор bosch bfg 3000</h3>
           <del class="original-prize">22500 Р.</del>
@@ -113,7 +115,7 @@
             <span class="prize">15500 Р.</span>
           </div>
         </article>
-        <article>
+        <article class="card">
           <img src="./img/Perforator_3.jpg" alt="Перфоратор bosch bfg 6000">
           <h3>Перфоратор bosch bfg 6000</h3>
           <del class="original-prize">30500 Р.</del>
@@ -125,7 +127,7 @@
             <span class="prize">25500 Р.</span>
           </div>
         </article>
-        <article>
+        <article class="card">
           <img src="./img/Perforator_4.png" alt="Перфоратор bosch bfg 2000">
           <h3>Перфоратор bosch bfg 2000</h3>
           <span class="prize">12500 Р.</span>
@@ -145,14 +147,14 @@
         <a class="long-red-btn" href="catalog.html">все производители</a>
       </div>
       <ul class="brand-list">
-        <li><a href="#">bosch</a></li>
-        <li><a href="#">makita</a></li>
-        <li><a href="#">dewalt</a></li>
-        <li><a href="#">интерскол</a></li>
-        <li><a href="#">hitachi</a></li>
-        <li><a href="#">lg</a></li>
-        <li><a href="#">aeg</a></li>
-        <li><a href="#">metabo</a></li>
+        <li><a href="#"><img src="./img/logos/bosch.jpg" alt="Bosch"></a></li>
+        <li><a href="#"><img src="./img/logos/Makita.png" alt="Bosch"></a></li>
+        <li><a href="#"><img src="./img/logos/DeWALT.jpg" alt="DeWalt">></a></li>
+        <li><a href="#"><img src="./img/logos/interskol.jpg" alt="Интерскол"></a></li>
+        <li><a href="#"><img src="./img/logos/Hitachi.jpg" alt="Hitachi"></a></li>
+        <li><a href="#"><img src="./img/logos/LG.jpg" alt="LG"></a></li>
+        <li><a href="#"><img src="./img/logos/AEG.jpg" alt="AEG"></a></li>
+        <li><a href="#"><img src="./img/logos/Metabo.jpg" alt="Metabo"></a></li>
       </ul>
     </section>
     <section class="services-box_bg">
@@ -212,12 +214,12 @@
     <div class="container">
       <div class="logotype-address">
         <a class="logotype">Техномарт</a>
-        <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</address>
+        <address>г. Санкт-Петербург, <br>ул. Б. Конюшенная, д. 19/8</address>
         <a href="tel:+78125550555">+7 (812) 555-05-55</a>
       </div>
       <nav class="footer-navigation">
         <ul class="main-navigate">
-          <li><a href=" #">Компания</a></li>
+          <li><a href="#">Компания</a></li>
           <li><a href="#">Новости</a></li>
           <li><a href="catalog.html">Каталог</a></li>
           <li><a href="#">Доставка</a></li>
@@ -233,18 +235,19 @@
     </div>
     <div class="copyright-global-box">
       <div class="container">
-        <p>© 2010–2019 Компания «Техномарт» Все права защищены</p>
+        <p class="footer-copyright">
+          © 2010–2019 Компания «Техномарт» <br>Все права защищены</p>
         <ul class="social">
           <li><a href="#">Вконтакте</a></li>
           <li><a href="#">Facebook</a></li>
           <li><a href="#">Instagram</a></li>
         </ul>
-        <div>
-          <p>
+        <div class="feedback-research">
+          <p class="feedback">
             Обратная связь:
             <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
           </p>
-          <p>
+          <p class="research">
             Разработано &mdash;
             <a href="https://htmlacademy.ru/">htmlacademy.ru</a>
           </p>
